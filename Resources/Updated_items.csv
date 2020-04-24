@@ -1,0 +1,95 @@
+,Item,Weight,Bags,Must,quantity,must quantity,category,bags column length,assigned_bag
+0,planes bag,8.5,planes,v,1,1,System,6,planes bag
+1,Full Bandolera ,3.76,planes,v,1,2,System,6,planes bag
+2,Full Bandolera ,3.76,planes,v,1,2,System,6,planes bag
+3,Full Bandolera ,3.76,planes,v,1,2,System,6,planes bag
+4,tail,0.3,planes,0,1,2,System,6,planes bag
+5,tail,0.3,planes,0,1,2,System,6,planes bag
+6,tail,0.3,planes,0,1,2,System,6,planes bag
+7,central wing,1.08,planes,0,1,2,System,6,planes bag
+8,central wing,1.08,planes,0,1,2,System,6,planes bag
+9,central wing,1.08,planes,0,1,2,System,6,planes bag
+10,engine,0.44,planes,0,1,2,System,6,planes bag
+11,engine,0.44,planes,0,1,2,System,6,planes bag
+12,engine,0.44,planes,0,1,2,System,6,planes bag
+13,height steer,0.12,planes,0,1,2,System,6,planes bag
+14,height steer,0.12,planes,0,1,2,System,6,planes bag
+15,height steer,0.12,planes,0,1,2,System,6,planes bag
+16,dihedral,0.4,planes,0,1,2,System,6,planes bag
+17,dihedral,0.4,planes,0,1,2,System,6,planes bag
+18,dihedral,0.4,planes,0,1,2,System,6,planes bag
+19,pods bag,8.72,pods,v,1,1,System,4,pods bag
+20,Pod,1.74,pods,v,1,2,System,4,pods bag
+21,Pod,1.74,pods,v,1,2,System,4,pods bag
+22,Pod,1.74,pods,v,1,2,System,4,pods bag
+23,optic,0.86,pods,v,1,2,System,4,pods bag
+24,optic,0.86,pods,v,1,2,System,4,pods bag
+25,thermal,1.2,pods,v,1,2,System,4,pods bag
+26,thermal,1.2,pods,v,1,2,System,4,pods bag
+27,thermal,1.2,pods,v,1,2,System,4,pods bag
+28,hammer,1.28, pods ,v,1,1,System,6,planes bag
+29,Baznat,0.72, pods ,v,1,1,System,6,planes bag
+30,Bungee,1.26, pods ,v,1,1,System,6,planes bag
+31,Air Bag,0.2,"planes , pods ",v,1,2,System,14,mefaked low
+32,Air Bag,0.2,"planes , pods ",v,1,2,System,14,mefaked low
+33,Air Bag,0.2,"planes , pods ",v,1,2,System,14,mefaked low
+34,Pakalon,1.08,"planes , pods ",v,1,1,System,14,mefaked low
+35,Ground System Bag,8.0,Ground System,v,1,1,System,13,ground system bag
+36,Tablet,9.65,Ground System,v,1,1,System,13,ground system bag
+37,Encryption Cable,0.2,"Ground System,planes,pods",0,1,0,Add-ons,25,0
+38,GDT,1.3,"Ground System , low bag , mefaked low",v,1,2,System,37,0
+39,GDT,1.3,"Ground System , low bag , mefaked low",v,1,2,System,37,0
+40,GDT,1.3,"Ground System , low bag , mefaked low",v,1,2,System,37,0
+41,VGA,0.15,"Ground System , planes, pods, low bag, mefaked  low",0,1,0,Add-ons,51,0
+42,10 m’ Cable,1.35,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+43,Tripod,1.82,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+44,Omni antenna,0.2,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+45,GDT Holder,0.36,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+46,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+47,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+48,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+49,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+50,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+51,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+52,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+53,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+54,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+55,Panasonic Battery,1.85,"Ground System , planes, pods, low bag, mefaked  low",v,1,5,Batteries,51,0
+56,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+57,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+58,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+59,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+60,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+61,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+62,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+63,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+64,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+65,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+66,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+67,GDT Battery,0.4,"Ground System , low bag , mefaked low",v,1,5,Batteries,37,0
+68,Gal Yarok (including carrier),1.0,"Ground System , planes, pods, low bag, mefaked  low",0,1,0,Add-ons,51,0
+69,Flexible Omni Antenna,0.26,"Ground System , low bag , mefaked low",0,1,0,System,37,0
+70,Commander Station,2.28,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+71,Commander Station Charger,0.5,"Ground System , low bag , mefaked low",0,1,1,System,37,0
+72,Tablet to Commander Station Cable,0.36,"Ground System , low bag , mefaked low",v,1,1,System,37,0
+73,Charging Cable 220 V,0.2,"Ground System , low bag , mefaked low",0,1,0,System,37,0
+74,50 m Cable,4.4,"Ground System , low bag , mefaked low",0,1,0,Add-ons,37,0
+75,GDT Extender Cable,0.6,"Ground System , low bag , mefaked low",0,1,0,Add-ons,37,0
+76,Encryption System (mk 2020),2.48,low bag,0,1,0,Add-ons,7,low bag
+77,Witch,1.5,"Ground System,low bag, mefaked low",v,1,1,System,34,0
+78,Batteries Charger,3.7,"Ground System,planes,pods,low bag",0,1,0,Add-ons,33,0
+79,Charger Power Supplier,3.68,"Ground System,planes,pods,low bag",0,1,0,Add-ons,33,0
+80,Radio 710,0.7,"Ground System , planes, pods, low bag",v,1,2,radio,37,0
+81,Radio 710,0.7,"Ground System , planes, pods, low bag",v,1,2,radio,37,0
+82,Radio amplifier,1.9,mefaked  low,v,1,1,radio,12,0
+83, amplifier Cables and Adapters],2.0,mefaked  low,v,1,1,radio,12,0
+84,Full water Bag,3.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+85,Full water Bag,3.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+86,Full water Bag,3.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+87,Full water Bag,3.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+88,Full water Bag,3.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+89,Full Combat Gear,13.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+90,Full Combat Gear,13.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+91,Full Combat Gear,13.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+92,Full Combat Gear,13.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
+93,Full Combat Gear,13.0,"Ground System , planes, pods, low bag, mefaked  low",v,1,1,combat,51,0
