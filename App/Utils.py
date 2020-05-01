@@ -1,7 +1,23 @@
-def get_max_carry_in_kg(max_percentage_allowed, warrior_weight):
+from collections import OrderedDict
+
+from Team import Person
+
+
+def create_team(names, weights, max_carries):
+    weight_data = list(zip(weights, max_carries))
+    max_allowed = [Person.get_max_carry_in_kg(max_allowed=max_allowed, weight=weight) for max_allowed, weight in
+                   weight_data]
+    people = list(zip(names, max_allowed))
+    team = [Person(name=name, max_allowed=max_allowed) for name, max_allowed in people]
+    return team
+
+
+def sort_ordered_dict(dictionary):
     """
-    This function receives the percentage of body weight warrior is allowed to carry and is body weight
-    and returns the maximum weight he can carry.
+    Takes in a regular dictionary containing nested dictionaries and returns it sorted by the nested dicts values.
+    :return sorted_dict = collections.OrderedDict:
     """
-    max_weight_allowed = (max_percentage_allowed * warrior_weight) / 100.0
-    return max_weight_allowed
+    sorted_dict = OrderedDict(
+        sorted([[k, v] for (k, v) in dictionary.items()], key=lambda kv: sum(kv[1].values()), reverse=True)
+    )
+    return sorted_dict
