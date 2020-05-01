@@ -1,8 +1,3 @@
-from BagsFormatter.Base.BaseClasses import Person
-
-test_team = {1: Person(max_allowed=50, weight=74),
-             2: Person(max_allowed=50, weight=83),
-             3: Person(max_allowed=50, weight=73),
-             4: Person(max_allowed=50, weight=77),
-             5: Person(max_allowed=50, weight=74, mefaked=True)
-             }
+TEST_NAMES = ['yovel', 'gil', 'eyal', 'peleg', 'ido']
+TEST_WEIGHTS = [83, 74, 73, 77, 74]
+TEST_MAX_CARRIES = [50, 50, 50, 50, 50]
