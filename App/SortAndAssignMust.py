@@ -11,7 +11,7 @@ class SortAndAssignMustItems:
     df = ITEMS_DF
 
     @classmethod
-    def create_bag_df(cls):
+    def add_columns(cls):
         """
         Add len of string in Bags column to a column named beg_len.
         """
@@ -29,17 +29,6 @@ class SortAndAssignMustItems:
         return cls.df
 
     @classmethod
-    def assign_must_items(cls):
-        """
-        Assign The items that are marked as must to their respective bags.
-        :returns pandas.DataFrame
-        """
-        cls.df[DfConsts.ASSIGNED_BAG] = cls.df.loc[
-            cls.df[DfConsts.MUST] == True][
-            DfConsts.BAGS_COLUMN_LENGTH].map(cls._bags)
-        return cls.df
-
-    @classmethod
     def duplicate_rows(cls):
         """
         This method multiplies every row in the data frame if that row's quantity > 1 until that row's count is 1.
@@ -49,15 +38,28 @@ class SortAndAssignMustItems:
         return cls.df
 
     @classmethod
+    def assign_must_items(cls):
+        """
+        Assign The items that are marked as must to their respective bags.
+        The Reason for this method being here and not and in assign items class, is that we want to do a little sanity
+        check before assigning rest of the items that the team can carry the bags at their base weight.
+        :returns pandas.DataFrame
+        """
+        cls.df[DfConsts.ASSIGNED_BAG] = cls.df.loc[
+            cls.df[DfConsts.MUST] == True][
+            DfConsts.BAGS_COLUMN_LENGTH].map(cls._bags)
+        return cls.df
+
+    @classmethod
     def export_to_csv(cls):
         cls.df.to_csv(f'{PATH}{RESOURCES}{UPDATED_ITEMS_FILE}')
 
     @classmethod
     def run(cls):
-        cls.create_bag_df()
+        cls.add_columns()
         cls.fill_must_with_bool()
-        cls.assign_must_items()
         cls.duplicate_rows()
+        cls.assign_must_items()
         cls.export_to_csv()
 
 

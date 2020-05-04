@@ -1,9 +1,12 @@
 from collections import OrderedDict
 
-from Team import Person
+from App.Person import Person
 
 
 def create_team(names, weights, max_carries):
+    """
+    Craete a list of Person object for every team member.
+    """
     weight_data = list(zip(weights, max_carries))
     max_allowed = [Person.get_max_carry_in_kg(max_allowed=max_allowed, weight=weight) for max_allowed, weight in
                    weight_data]
@@ -14,7 +17,7 @@ def create_team(names, weights, max_carries):
 
 def sort_ordered_dict(dictionary):
     """
-    Takes in a regular dictionary containing nested dictionaries and returns it sorted by the nested dicts values.
+    Takes in a regular dictionary containing nested dictionaries and returns it sorted by the nested dicts values sum.
     :return sorted_dict = collections.OrderedDict:
     """
     sorted_dict = OrderedDict(

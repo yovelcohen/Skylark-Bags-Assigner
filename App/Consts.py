@@ -34,6 +34,8 @@ BAGS = {
     BagsStringLength.MEFAKED_LOW: 'mefaked low'
 }
 
+BAGS_NAMES = list(BAGS.values())
+
 # Base Index
 INDEX = 0
 
