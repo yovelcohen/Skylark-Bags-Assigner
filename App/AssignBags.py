@@ -62,12 +62,9 @@ class AssignBags:
         keep assigning items.
         """
         team_max_weights = sorted([person.max_allowed for person in cls.team])
-        for bag in cls.bags.values():
-            for weight in team_max_weights:
-                if sum(bag.values()) == weight:
-                    raise NotImplementedError
+        for weight in team_max_weights:
+            raise NotImplementedError
 
-    @classmethod
     def run(cls):
         pass
 
