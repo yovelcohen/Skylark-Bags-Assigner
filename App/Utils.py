@@ -1,17 +1,20 @@
 from collections import OrderedDict
 
-from App.Person import Person
+from Person import Person
 
 
-def create_team(names, weights, max_carries):
+def create_team(names, weights, max_carries, mefaked_name):
     """
-    Craete a list of Person object for every team member.
+    Create a list of Person object for every team member.
     """
     weight_data = list(zip(weights, max_carries))
     max_allowed = [Person.get_max_carry_in_kg(max_allowed=max_allowed, weight=weight) for max_allowed, weight in
                    weight_data]
     people = list(zip(names, max_allowed))
     team = [Person(name=name, max_allowed=max_allowed) for name, max_allowed in people]
+    for person in team:
+        if person.name == mefaked_name:
+            person.mefaked = True
     return team
 
 
