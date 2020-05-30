@@ -1,10 +1,9 @@
 class Person:
-    def __init__(self, name, max_allowed, mefaked=None):
+    def __init__(self, name, max_allowed, mefaked=False):
         self.name = name
         self._max_allowed = max_allowed
-        self.mefaked = mefaked
+        self._mefaked = mefaked
 
-    assigned_items = {}
     bag = None
 
     @property
@@ -14,6 +13,14 @@ class Person:
     @max_allowed.setter
     def max_allowed(self, value):
         self._max_allowed = value
+
+    @property
+    def mefaked(self):
+        return self._mefaked
+
+    @mefaked.setter
+    def mefaked(self, value):
+        self._mefaked = value
 
     @staticmethod
     def get_max_carry_in_kg(max_allowed, weight):

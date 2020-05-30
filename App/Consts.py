@@ -1,4 +1,5 @@
 from pandas import read_csv
+from pandas import set_option
 
 # Base DataFrame containing all items.
 ITEMS_DF = read_csv("/home/yovel/PycharmProjects/BagsFormatter/Resources/Items.csv",
@@ -66,3 +67,8 @@ class TypesConsts:
     STR = 'string'
     FLOAT = 'float'
     INT = 'int'
+
+
+class DfViewSettings:
+    pd_view_set1 = set_option("max_columns", 15)
+    pd_view_set2 = set_option("max_rows", 1000)
