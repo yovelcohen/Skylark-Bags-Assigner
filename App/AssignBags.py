@@ -1,6 +1,5 @@
 import pandas as pd
 from Consts import DfViewSettings, RESOURCES, BAGS, BagsStringLength, DfConsts, UPDATED_ITEMS_FILE, PATH, BAGS_NAMES
-from TestCases import TEST_NAMES, TEST_WEIGHTS, TEST_MAX_CARRIES
 from Utils import create_team
 
 DfViewSettings()
@@ -15,8 +14,8 @@ class AssignBags:
         bags = {}
 
     @classmethod
-    def set_team(cls, names, weights, max_carries):
-        cls.team = create_team(names=names, weights=weights, max_carries=max_carries, mefaked_name='gil')
+    def set_team(cls, names, weights, max_carries, mefaked):
+        cls.team = create_team(names=names, weights=weights, max_carries=max_carries, mefaked_name=mefaked)
         return cls.team
 
     @classmethod
@@ -84,4 +83,3 @@ class AssignBags:
 
         # Assign Mefaked Bag
         cls.assign_mefaked()
-
